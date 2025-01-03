@@ -39,7 +39,6 @@ public class Alfabeto extends Pictograma{
         if(c+1 == letras.length) {
             res+=letras[c];
         }
-        System.out.println(res);
         return res;
     }
 }
