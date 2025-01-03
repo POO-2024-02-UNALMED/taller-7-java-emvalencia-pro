@@ -37,7 +37,7 @@ public class Alfabeto extends Pictograma{
             c++;
         }
         if(c == letras.length) {
-            res+=letras[c-1];
+            res+=letras[c];
         }
         return res;
     }
