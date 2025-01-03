@@ -31,14 +31,15 @@ public class Alfabeto extends Pictograma{
 
     public String toString(){
         int c=1;
-        String res=null;
-        while(c != letras.length) {
-            res+=letras[c-1]+", ";
+        String res=letras[0]+", ";
+        while(c+1 != letras.length) {
+            res+=letras[c]+", ";
             c++;
         }
-        if(c == letras.length) {
+        if(c+1 == letras.length) {
             res+=letras[c];
         }
+        System.out.println(res);
         return res;
     }
 }
